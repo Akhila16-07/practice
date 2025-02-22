@@ -1,0 +1,33 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PrintDuplicates {
+
+	public static void main(String[] args) {
+		List<String> str= new ArrayList<>();
+		str.add("a");
+		str.add("b");
+		str.add("c");
+		str.add("d");
+		str.add("e");
+		str.add("a");
+		str.add("f");
+		str.add("b");
+		
+		System.out.println(str.size());
+		for(int i=0;i<str.size();i++) {
+			//String str1 =str.get(i);
+			for(int j=1;j<str.size();j++) {
+				if(str.get(i).equals(str.get(j)));
+				{
+				System.out.print(str.get(i));
+			}
+		  }
+	//	System.out.println(str);
+
+		}
+		}
+		
+}

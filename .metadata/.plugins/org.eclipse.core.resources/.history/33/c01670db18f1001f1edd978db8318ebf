@@ -1,0 +1,32 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+
+public class PrintNonDuplicates {
+
+	public static void main(String[] args) {
+		// print non duplicates
+		List<String> list = new ArrayList<>();
+		list.add("abhi");
+		list.add("mahi");
+		list.add("abhi");//
+		list.add("aruu");//		
+		list.add("sumi");
+		list.add("mahi");
+		//System.out.println(list);
+		
+		HashSet<String> hash=new HashSet<>();
+		
+		for(String a:list) {
+			hash.add(a);
+		}
+		
+		System.out.println(hash);
+		
+	}
+}

@@ -28,7 +28,7 @@ public class SortInDecendingOrder {
 				max=list.get(i);
 				decending.addFirst(max);
 			}else {
-				decending.addLast(list.get(i));
+				//decending.add(max, i);
 			}
 			
 		}

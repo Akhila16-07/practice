@@ -17,7 +17,7 @@ public class SortInDecendingOrder {
 		list.add(32);
 		list.add(1);
 		
-		Collections.sort(list);
+		Collections.sort(list,Collections.reverseOrder());
 		System.out.println(list);
 		
 	}

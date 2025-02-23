@@ -37,7 +37,7 @@ public class SortInDecendingOrder {
 
 	}
 	
-	public static void ascendingOrder() {
+	public void ascendingOrder() {
 		List<Integer> list= new ArrayList<>();
 		list.add(13);
 		list.add(5);

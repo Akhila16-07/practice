@@ -33,11 +33,10 @@ public class SortInDecendingOrder {
 			
 		}
 		System.out.println(decending);
-		ascendingOrder();
 
 	}
 	
-	public static void ascendingOrder() {
+	public void ascendingOrder() {
 		List<Integer> list= new ArrayList<>();
 		list.add(13);
 		list.add(5);
@@ -51,7 +50,7 @@ public class SortInDecendingOrder {
 		LinkedList<Integer> asc=new LinkedList<>();
 		
 		for(int i=0;i<list.size();i++) {
-			if(list.get(i)<min) {
+			if(list.get(i)>min) {
 				min=list.get(i);
 				asc.addFirst(min);
 			}else {
